@@ -35,7 +35,7 @@ length_entry.pack(pady=5)
 generate_btn = tk.Button(root, text="Generate Password", command=generate_password)
 generate_btn.pack(pady=10)
 
-result_label = tk.Label(root, text="", font=("Arial", 12), fg="blue", wraplength=350)
+result_label = tk.Label(root, text="", font=("Arial", 12), fg="red", wraplength=350)
 result_label.pack(pady=10)
 
 # Run the GUI
